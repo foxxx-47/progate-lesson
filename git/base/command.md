@@ -15,3 +15,6 @@
 
 ## リモートリポジトリのファイルをダウンロードする
 `$ git pull origin master`
+
+## 変更したファイルを把握する
+`$ git status`
