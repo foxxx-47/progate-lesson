@@ -12,3 +12,6 @@
 
 ## リモートリポジトリにファイルをアップする
 `$ git push origin master`
+
+## リモートリポジトリのファイルをダウンロードする
+`$ git pull origin master`
