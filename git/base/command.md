@@ -9,3 +9,6 @@
 
 ## リモートリポジトリを登録する
 `$ git remote add [リモートリポジトリ名] [URL]`
+
+## リモートリポジトリにファイルをアップする
+`$ git push origin master`
