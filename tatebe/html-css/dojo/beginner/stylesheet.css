@@ -85,8 +85,22 @@ main .top h2 {
 .contact .form p {
   padding-bottom: 10px;
 }
-
 .contact .submit input {
   background-color: #DEE7EC;
   color: #889EAB;
+}
+
+footer {
+  background-color: #2F5167;
+  color: white;
+  height: 120px;
+  padding: 40px;
+}
+footer .footer-left {
+  float: left;
+  font-size: 32px;
+}
+footer .footer-right {
+  float: right;
+  padding-bottom: 20px;
 }
