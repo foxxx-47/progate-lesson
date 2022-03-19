@@ -7,6 +7,27 @@ a {
   text-decoration: none;
 }
 
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .container {
   width: 1170px;
   padding: 0 15px;
