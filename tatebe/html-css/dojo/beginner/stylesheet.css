@@ -29,3 +29,16 @@ header .header-title {
 header .header-content {
   margin: 33px 20px;
 }
+
+main .top {
+  margin: 100px 80px;
+}
+main .top h1 {
+  font-size: 140px;
+}
+main .top h2 {
+  font-size: 60px;
+}
+.red {
+  color: #ff4a4a;
+}
