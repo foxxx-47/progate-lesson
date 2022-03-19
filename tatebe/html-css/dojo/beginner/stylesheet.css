@@ -42,3 +42,26 @@ main .top h2 {
 .red {
   color: #ff4a4a;
 }
+
+.contents {
+  margin: 100px 80px;
+  height: 500px;
+}
+.contents .contents-title h3 {
+  font-size: 28px;
+}
+
+.lesson {
+  float: left;
+  margin-right: 40px;
+}
+.lesson-title {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.border {
+  margin-top: 15px;
+  border-bottom: 2px solid #DEE7EC;
+  margin-bottom: 50px;
+}
