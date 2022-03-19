@@ -65,3 +65,28 @@ main .top h2 {
   border-bottom: 2px solid #DEE7EC;
   margin-bottom: 50px;
 }
+
+.contact {
+  margin: 100px 80px;
+}
+.contact .contact-title {
+  font-size: 28px;
+}
+.contact .form {
+  width: 400px;
+}
+.contact input, textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border: 1px solid #DEE7EC;
+}
+.contact .form p {
+  padding-bottom: 10px;
+}
+
+.contact .submit input {
+  background-color: #DEE7EC;
+  color: #889EAB;
+}
