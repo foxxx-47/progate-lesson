@@ -24,25 +24,62 @@ li {
 }
 
 .main {
-  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
   padding: 100px 80px;
-  
 }
 
-/* copy-containerの中のh1のfont-sizeを指定してください */
 .copy-container h1 {
   font-size: 140px;
 }
 
-/* copy-containerの中のh2のfont-sizeを指定してください */
 .copy-container h2 {
   font-size: 60px;
 }
 
-/* copy-containerの中のspanの色を指定してください */
 .copy-container span {
   color: #ff4a4a;
 }
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* inputとtextareaのCSSを指定してください */
+input,textarea{
+  width: 400px;
+  margin: 10px 0 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit{
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
 
 .footer {
   background-color: #2f5167;
