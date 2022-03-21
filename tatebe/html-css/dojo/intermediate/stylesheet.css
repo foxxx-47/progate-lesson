@@ -17,6 +17,40 @@ a {
   text-decoration: none;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.header-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header-left {
+  float: left;
+}
+.header-left .logo {
+  width: 124px;
+  padding-top: 20px;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  display: block;
+  color: white;
+  line-height: 65px;
+}
+
 main {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
