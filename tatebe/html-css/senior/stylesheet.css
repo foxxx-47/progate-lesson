@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 20px;
 }
@@ -5,6 +9,7 @@
 .item {
   width: 25%;
   float: left;
+  padding: 0 15px;
 }
 
 .item-box {
@@ -28,12 +33,14 @@
   background-color: #3D7DD8;
 }
 
+/* タブレット用レイアウト */
 @media (max-width: 1000px) {
   .item {
     width: 50%;
   }
 }
 
+/* スマートフォン用レイアウト */
 @media (max-width: 670px) {
   .item {
     width: 100%;
