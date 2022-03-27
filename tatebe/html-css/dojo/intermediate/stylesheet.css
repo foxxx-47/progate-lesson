@@ -52,13 +52,17 @@ header {
 }
 
 main {
+  background-color: #f7f7f7;
+}
+
+.top {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
   padding-top: 180px;
   padding-bottom: 100px;
   color: white;
 }
-.top {
+.top-container {
   width: 1170px;
   margin: 0 auto;
   text-align: center;
@@ -98,4 +102,39 @@ main {
 }
 .twitter {
   background-color: #55acee;
+}
+
+.contents {
+  width: 1170px;
+  height: 580px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contents .title {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.contents .title h2 {
+  font-weight: normal;
+}
+
+.contents .lesson {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+.lesson .name {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.lesson .description {
+  width: 80%;
+  display: inline-block;
+  font-size: 13px;
+  color: #b3aeb5;
 }
