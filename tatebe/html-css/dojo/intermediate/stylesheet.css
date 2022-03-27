@@ -51,10 +51,6 @@ header {
   line-height: 65px;
 }
 
-main {
-  background-color: #f7f7f7;
-}
-
 .top {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
@@ -104,6 +100,10 @@ main {
   background-color: #55acee;
 }
 
+.center {
+  background-color: #f7f7f7;
+}
+
 .contents {
   width: 1170px;
   height: 580px;
@@ -137,4 +137,34 @@ main {
   display: inline-block;
   font-size: 13px;
   color: #b3aeb5;
+}
+
+.bottom {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.bottom .message {
+  padding-bottom: 50px;
+}
+.bottom .message h2 {
+  font-weight: bold;
+}
+
+.start-btn {
+  background-color: #5dca88;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+}
+.start-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
