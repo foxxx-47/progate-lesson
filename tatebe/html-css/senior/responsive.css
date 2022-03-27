@@ -38,6 +38,14 @@
   .top-wrapper p {
     font-size: 14px;
   }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
   
   footer {
     text-align: center;

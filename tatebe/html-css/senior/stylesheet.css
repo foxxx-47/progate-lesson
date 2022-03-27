@@ -115,6 +115,12 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  display: none;
+}
+
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
