@@ -1,15 +1,41 @@
-h1 {
-  color: red;
+.container {
+  margin: 20px;
+}
+
+.item {
+  width: 25%;
+  float: left;
+}
+
+.item-box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.green {
+  background-color: #11D8B3;
+}
+
+.yellow {
+  background-color: #FFD466;
+}
+
+.red {
+  background-color: #ED456D;
+}
+
+.blue {
+  background-color: #3D7DD8;
 }
 
 @media (max-width: 1000px) {
-  h1 {
-    color: blue;
+  .item {
+    width: 50%;
   }
 }
 
 @media (max-width: 670px) {
-  h1 {
-    color: green;
+  .item {
+    width: 100%;
   }
 }
