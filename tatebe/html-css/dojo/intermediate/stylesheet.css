@@ -168,3 +168,18 @@ header {
   position: relative;
   top: 7px;
 }
+
+footer .border {
+  border: 1px solid #eee;
+}
+footer .logo {
+  width: 1170px;
+  margin: 30px auto;
+}
+footer .logo img {
+  width: 124px;
+}
+footer .logo p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
