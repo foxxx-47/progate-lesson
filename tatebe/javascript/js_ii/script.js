@@ -35,7 +35,7 @@ for (let number = 1; number <= 100; number++) {
 }
 
 // 5. 配列とは
-const animals = ['dog', 'cat', 'sheep'];
+// const animals = ['dog', 'cat', 'sheep'];
 console.log(animals);
 
 // 6. 配列の要素の取得
@@ -49,5 +49,13 @@ console.log(animals[2]);
 
 // 8. 配列と繰り返し（1）
 for (let i = 0; i < 3; i++) {
+  console.log(animals[i]);
+}
+
+// 9. 配列と繰り返し（2）
+const animals = ["dog", "cat", "sheep", "rabbit", "monkey", "tiger", "bear", "elephant"];
+console.log(animals.length);
+
+for (let i = 0; i < animals.length; i++) {
   console.log(animals[i]);
 }
