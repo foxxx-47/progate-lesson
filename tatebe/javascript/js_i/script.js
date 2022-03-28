@@ -57,10 +57,18 @@ console.log(language);
 console.log(language + "を話せます");
 
 // 11. テンプレートリテラル
-const age = 14;
+// const age = 14;
 console.log(`ぼくの名前は${name}です`);
 console.log(`今は${age}歳です`);
 
 // 12. if文
 const level = 12;
 if (level > 10) {console.log("レベルが10より大きいです");};
+
+
+// 13. 真偽値と比較演算子（1）
+const age = 24;
+console.log(age >= 20);
+console.log(age < 20);
+
+if(age >= 20) {console.log('私は20歳以上です');};
