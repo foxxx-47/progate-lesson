@@ -41,3 +41,7 @@ console.log(animals);
 // 6. 配列の要素の取得
 console.log(animals[0]);
 console.log(animals[2]);
+
+// 7. 配列の要素の更新
+animals[2] = 'rabbit';
+console.log(animals[2]);
