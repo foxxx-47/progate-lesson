@@ -37,3 +37,7 @@ for (let number = 1; number <= 100; number++) {
 // 5. 配列とは
 const animals = ['dog', 'cat', 'sheep'];
 console.log(animals);
+
+// 6. 配列の要素の取得
+console.log(animals[0]);
+console.log(animals[2]);
