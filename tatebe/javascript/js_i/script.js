@@ -33,7 +33,6 @@ console.log(length);
 console.log(length * length * 3);
 
 // 8. 変数の値の更新（1）
-let name = "にんじゃわんこ";
 console.log(name);
 
 name = "とりずきん";
@@ -56,3 +55,8 @@ console.log(number);
 const language = "フランス語";
 console.log(language);
 console.log(language + "を話せます");
+
+// 11. テンプレートリテラル
+const age = 14;
+console.log(`ぼくの名前は${name}です`);
+console.log(`今は${age}歳です`);
