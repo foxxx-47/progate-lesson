@@ -59,3 +59,11 @@ console.log(animals.length);
 for (let i = 0; i < animals.length; i++) {
   console.log(animals[i]);
 }
+
+
+// 10. オブジェクトとは
+const character = {
+  name: 'にんじゃわんこ',
+  age: 14,
+};
+console.log(character);
