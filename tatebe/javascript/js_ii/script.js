@@ -24,3 +24,12 @@ while (number <= 100) {
 for (let number = 1; number <= 100; number++) {
   console.log(number);
 }
+
+// 4. 繰り返し処理のまとめ
+for (let number = 1; number <= 100; number++) {
+  if (number % 3 === 0) {
+    console.log('3の倍数です');
+  } else {
+    console.log(number);
+  };
+}
