@@ -60,3 +60,7 @@ console.log(language + "を話せます");
 const age = 14;
 console.log(`ぼくの名前は${name}です`);
 console.log(`今は${age}歳です`);
+
+// 12. if文
+const level = 12;
+if (level > 10) {console.log("レベルが10より大きいです");};
