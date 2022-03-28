@@ -67,7 +67,7 @@ if (level > 10) {console.log("レベルが10より大きいです");};
 
 
 // 13. 真偽値と比較演算子（1）
-const age = 24;
+// const age = 24;
 console.log(age >= 20);
 console.log(age < 20);
 
@@ -82,3 +82,12 @@ if (password === 'ninjawanko') {
 if(password !== 'ninjawanko') {
   console.log('パスワードが間違っています');
 };
+
+// 15. else
+const age = 17;
+
+if (age >= 20) {
+  console.log("私は20歳以上です");
+} else {
+  console.log("私は20歳未満です");
+}
