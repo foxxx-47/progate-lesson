@@ -72,3 +72,12 @@ console.log(character);
 console.log(character.name);
 character.age = 20;
 console.log(character);
+
+// 12. オブジェクトを要素に持つ配列（1）
+const characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人", age: 1000},
+];
+
+console.log(characters[0]);
+console.log(characters[1].name);
