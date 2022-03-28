@@ -43,5 +43,11 @@ console.log(animals[0]);
 console.log(animals[2]);
 
 // 7. 配列の要素の更新
-animals[2] = 'rabbit';
+// animals[2] = 'rabbit';
 console.log(animals[2]);
+
+
+// 8. 配列と繰り返し（1）
+for (let i = 0; i < 3; i++) {
+  console.log(animals[i]);
+}
