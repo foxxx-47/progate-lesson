@@ -31,3 +31,10 @@ let length = 5;
 console.log(length);
 
 console.log(length * length * 3);
+
+// 8. 変数の値の更新（1）
+let name = "にんじゃわんこ";
+console.log(name);
+
+name = "とりずきん";
+console.log(name);
