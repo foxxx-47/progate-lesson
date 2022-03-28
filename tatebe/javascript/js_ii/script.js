@@ -83,11 +83,11 @@ console.log(characters[0]);
 console.log(characters[1].name);
 
 // 13. オブジェクトを要素に持つ配列（2）
-const characters = [
-  {name: "にんじゃわんこ", age: 14},
-  {name: "ひつじ仙人", age: 100},
-  {name: "ベイビーわんこ", age: 5},
-];
+// const characters = [
+//   {name: "にんじゃわんこ", age: 14},
+//   {name: "ひつじ仙人", age: 100},
+//   {name: "ベイビーわんこ", age: 5},
+// ];
 
 for (let i = 0; i < characters.length; i++) {
   const character = characters[i];
@@ -95,3 +95,19 @@ for (let i = 0; i < characters.length; i++) {
   console.log(`${character.age}歳です`);
 }
 
+// 14. undefinedとは
+const characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人", age: 100},
+  {name: "ベイビーわんこ", age: 5},
+  {name: "とりずきん"},
+];
+
+for (let i = 0; i < characters.length; i++) {
+  console.log("--------------------");
+  
+  const character = characters[i];
+  
+  console.log(`名前は${character.name}です`);
+  console.log(`${character.age}歳です`);
+}
