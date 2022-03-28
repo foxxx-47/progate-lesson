@@ -67,3 +67,8 @@ const character = {
   age: 14,
 };
 console.log(character);
+
+// 11. オブジェクトの値の取得・更新
+console.log(character.name);
+character.age = 20;
+console.log(character);
