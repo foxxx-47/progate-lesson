@@ -25,3 +25,9 @@ console.log("20" + "15");
 // 6. 変数とは
 let name = "にんじゃわんこ";
 console.log(name);
+
+// 7. 変数の特徴
+let length = 5;
+console.log(length);
+
+console.log(length * length * 3);
