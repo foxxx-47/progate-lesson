@@ -21,3 +21,7 @@ console.log(7 % 2);
 // 5. 文字列の連結
 console.log("ひつじ" + "仙人");
 console.log("20" + "15");
+
+// 6. 変数とは
+let name = "にんじゃわんこ";
+console.log(name);
