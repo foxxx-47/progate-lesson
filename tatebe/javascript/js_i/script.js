@@ -72,3 +72,13 @@ console.log(age >= 20);
 console.log(age < 20);
 
 if(age >= 20) {console.log('私は20歳以上です');};
+
+// 14. 真偽値と比較演算子（2）
+const password = "ninjawanko";
+
+if (password === 'ninjawanko') {
+  console.log('ログインに成功しました');
+};
+if(password !== 'ninjawanko') {
+  console.log('パスワードが間違っています');
+};
