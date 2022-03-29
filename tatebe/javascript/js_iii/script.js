@@ -34,7 +34,7 @@ add(5, 7);
 const half = (number) => {
   return number / 2;
 };
-const result = half(130);
+// const result = half(130);
 console.log(`130の半分は${result}です`);
 
 // 7. 戻り値の活用
@@ -57,3 +57,10 @@ introduce();
 
 const name = 'ひつじ仙人';
 console.log(name);
+
+// 9. 総合演習
+const toMinutes = (hour, minute) => {
+  return hour * 60 + minute;
+};
+const result = toMinutes(3, 20);
+console.log(`${result}分`);
