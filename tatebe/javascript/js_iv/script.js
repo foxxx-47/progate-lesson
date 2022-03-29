@@ -18,10 +18,22 @@ animal.greet();
 console.log(animal);
 
 // 4. コンストラクタ（1）
+// class Animal {
+//   constructor() {
+//     console.log('インスタンスを生成しました');
+//   }
+// }
+
+// const animal = new Animal();
+
+// 5. コンストラクタ（2）
 class Animal {
   constructor() {
-    console.log('インスタンスを生成しました');
+    this.name = 'レオ';
+    this.age = 3;
   }
 }
 
 const animal = new Animal();
+console.log(`名前:${animal.name}`);
+console.log(`年齢:${animal.age}`);
