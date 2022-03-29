@@ -29,3 +29,10 @@ const add = (number1, number2) => {
   console.log(number1 + number2);
 };
 add(5, 7);
+
+// 5. 戻り値とは
+const half = (number) => {
+  return number / 2;
+};
+const result = half(130);
+console.log(`130の半分は${result}です`);
