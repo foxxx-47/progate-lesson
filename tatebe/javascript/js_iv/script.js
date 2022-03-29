@@ -108,3 +108,6 @@ class Animal {
 
 const animal = new Animal('レオ', 3);
 animal.info();
+
+// 10. 継承とは
+class Dog extends Animal { }
