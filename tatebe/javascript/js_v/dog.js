@@ -1,3 +1,5 @@
+import Animal from "./animal";
+
 class Dog extends Animal {
   constructor(name, age, breed) {
     super(name, age);
@@ -18,3 +20,5 @@ class Dog extends Animal {
     return this.age * 7;
   }
 }
+
+export default Dog;

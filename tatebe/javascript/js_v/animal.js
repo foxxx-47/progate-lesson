@@ -14,3 +14,5 @@ class Animal {
     console.log(`${this.age}歳です`);
   }
 }
+
+export default Animal;
