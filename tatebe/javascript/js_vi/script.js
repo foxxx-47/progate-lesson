@@ -1,12 +1,13 @@
 const numbers = [1, 2, 3, 4];
-const evenNumbers = numbers.filter((number) => {return number % 2 === 0});
-console.log(evenNumbers);
+const doubledNumbers = numbers.map((number) => {return number * 2});
+console.log(doubledNumbers);
 
-const characters = [
-  {id: 1, name:"にんじゃわんこ", age: 14},
-  {id: 2, name:"ベイビーわんこ", age: 5},
-  {id: 3, name:"ひつじ仙人", age: 100}
+const names = [
+  {firstName: "Kate", lastName: "Jones"},
+	{firstName: "John", lastName: "Smith"},
+	{firstName: "Denis", lastName: "Williams"},
+	{firstName: "David", lastName: "Black"}
 ];
 
-const underTwenty = characters.filter((character) => {return character.age < 20});
-console.log(underTwenty);
+const fullNames = names.map((name) => {return name.firstName + name.lastName});
+console.log(fullNames);
