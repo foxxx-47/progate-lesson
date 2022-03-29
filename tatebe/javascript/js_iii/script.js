@@ -13,7 +13,13 @@ const hello = function() {
 hello();
 
 // 3. アロー関数
-const greet = () => {
-  console.log("こんにちは！");
+// const greet = () => {
+//   console.log("こんにちは！");
+// }
+// greet();
+
+// 4. 引数とは
+const greet = (name) => {
+  console.log(`こんにちは、${name}さん`);
 }
-greet();
+greet("ひつじ仙人");
