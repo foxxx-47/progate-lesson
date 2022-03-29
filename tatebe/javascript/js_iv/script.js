@@ -39,13 +39,30 @@ console.log(animal);
 // console.log(`年齢:${animal.age}`);
 
 // 6. コンストラクタ（3）
+// class Animal {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+
+// const animal = new Animal('モカ', 8);
+// console.log(`名前:${animal.name}`);
+// console.log(`年齢:${animal.age}`);
+
+// 7. メソッド（1）
 class Animal {
   constructor(name, age) {
     this.name = name;
     this.age = age;
   }
+
+  greet() {
+    console.log('こんにちは');
+  }
 }
 
-const animal = new Animal('モカ', 8);
+const animal = new Animal('レオ', 3);
 console.log(`名前:${animal.name}`);
 console.log(`年齢:${animal.age}`);
+animal.greet();
