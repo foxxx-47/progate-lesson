@@ -1,4 +1,4 @@
-import {dog1, dog2} from "./dogData";
+import {dog1, dog2} from "./data/dogData";
 
 console.log("---------");
 dog1.info();
