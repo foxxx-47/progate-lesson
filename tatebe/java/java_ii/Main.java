@@ -1,18 +1,11 @@
 class Main {
   public static void main(String[] args) {
-    int n = 0;
+    int number = 10;
     
-    switch (n) {
-      case 1:
-        System.out.println("大吉です");
-        break;
-      case 2:
-        System.out.println("中吉です");
-        break;
-      // defaultを用いて、変数nの値がどのcaseにも合致しない場合の処理を記述してください
-      default:
-        System.out.println("凶です");
-        break;
+    // while文を用いて、numberが0より大きい場合に繰り返す、繰り返し処理を作ってください
+    while (number > 0) {
+      System.out.println(number);
+      number--;
     }
   }
 }
