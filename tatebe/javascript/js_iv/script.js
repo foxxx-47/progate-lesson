@@ -9,3 +9,6 @@ const animal = {
 
 console.log(animal.name);
 animal.greet();
+
+// 2. クラスとは
+class Animal {}
