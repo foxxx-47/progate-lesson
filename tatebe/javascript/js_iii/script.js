@@ -30,9 +30,20 @@ const add = (number1, number2) => {
 };
 add(5, 7);
 
-// 5. 戻り値とは
+// 6. 戻り値とは
 const half = (number) => {
   return number / 2;
 };
 const result = half(130);
 console.log(`130の半分は${result}です`);
+
+// 7. 戻り値の活用
+const check = (number) => {
+  return number % 3 === 0;
+};
+
+if (check(123)) {
+  console.log("123は3の倍数です");
+} else {
+  console.log("123は3の倍数ではありません");
+}
