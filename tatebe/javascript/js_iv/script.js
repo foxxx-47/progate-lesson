@@ -51,6 +51,23 @@ console.log(animal);
 // console.log(`年齢:${animal.age}`);
 
 // 7. メソッド（1）
+// class Animal {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     console.log('こんにちは');
+//   }
+// }
+
+// const animal = new Animal('レオ', 3);
+// console.log(`名前:${animal.name}`);
+// console.log(`年齢:${animal.age}`);
+// animal.greet();
+
+// 8. メソッド（2）
 class Animal {
   constructor(name, age) {
     this.name = name;
@@ -60,9 +77,13 @@ class Animal {
   greet() {
     console.log('こんにちは');
   }
+
+  info() {
+    console.log(`名前は${this.name}です`);
+    console.log(`${this.age}歳です`);
+  }
 }
 
 const animal = new Animal('レオ', 3);
-console.log(`名前:${animal.name}`);
-console.log(`年齢:${animal.age}`);
 animal.greet();
+animal.info();
