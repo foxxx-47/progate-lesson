@@ -1,6 +1,6 @@
-const printWanko = () => { console.log("にんじゃわんこ"); };
-
-const printHitsuji = () => { console.log("ひつじ仙人"); };
+const printWanko = () => {
+  console.log("にんじゃわんこ");
+};
 
 const call = (callback) => {
   console.log("コールバック関数を呼び出します。");
@@ -8,3 +8,5 @@ const call = (callback) => {
 };
 
 call(printWanko);
+
+call(() => {console.log('ひつじ仙人');});
