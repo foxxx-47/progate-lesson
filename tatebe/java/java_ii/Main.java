@@ -1,8 +1,13 @@
 class Main {
   public static void main(String[] args) {
-    // for文を用いて、繰り返し処理をつくってください
-    for (int i = 1; i <= 10; i++) {
-      System.out.println(i + "回目のループです");
-    }
+    // 変数namesに、配列を代入してください
+    String[] names = {"にんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
+    
+    // インデックス番号が0の要素を出力してください
+    System.out.println(names[0]);
+    
+    // インデックス番号が2の要素を出力してください
+    System.out.println(names[2]);
+    
   }
 }
