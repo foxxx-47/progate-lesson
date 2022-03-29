@@ -1,5 +1,7 @@
 class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello Java");
+  public static void main(String[] args) {    
+    // この文章をコメントにしてください
+    System.out.println("こんにちは、Java");    
   }
 }
+
