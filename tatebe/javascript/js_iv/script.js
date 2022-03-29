@@ -19,7 +19,12 @@ const animal = new Animal('レオ', 3);
 animal.info();
 
 class Dog extends Animal {
-
+  getHumanAge() {
+    return this.age * 7;
+  }
 }
 const dog = new Dog('レオ', 4);
 dog.info();
+
+const humanAge = dog.getHumanAge();
+console.log(`人間年齢で${humanAge}歳です`);
