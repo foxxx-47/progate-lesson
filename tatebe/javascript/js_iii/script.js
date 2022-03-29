@@ -47,3 +47,13 @@ if (check(123)) {
 } else {
   console.log("123は3の倍数ではありません");
 }
+
+// 8. スコープ
+const introduce = () => {
+  const name = 'にんじゃわんこ';
+  console.log(name);
+};
+introduce();
+
+const name = 'ひつじ仙人';
+console.log(name);
