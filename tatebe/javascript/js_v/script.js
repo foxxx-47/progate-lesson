@@ -1,5 +1,3 @@
-import Dog from "./dog";
+import dog from "./dogData";
 
-const dog = new Dog("レオ", 4, "チワワ");
 dog.info();
-
