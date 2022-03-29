@@ -23,3 +23,9 @@ const greet = (name) => {
   console.log(`こんにちは、${name}さん`);
 }
 greet("ひつじ仙人");
+
+// 5. 複数の引数を受け取る関数
+const add = (number1, number2) => {
+  console.log(number1 + number2);
+};
+add(5, 7);
