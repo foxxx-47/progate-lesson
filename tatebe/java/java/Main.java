@@ -1,13 +1,13 @@
 class Main {
   public static void main(String[] args) {
-    // 数値の17を出力してください
-    System.out.println(17);
+    // 12を3で割った値を出力してください
+    System.out.println(12 / 3);
     
-    // 5に3を足した値を出力してください
-    System.out.println(5 + 3);
+    // 3に6を掛けた値を出力してください
+    System.out.println(3 * 6);
     
-    // 「5 + 3」を文字列として出力してください
-    System.out.println("5 + 3");
+    // 8を3で割った時の余りを出力してください
+    System.out.println(8 % 3);
     
   }
 }
