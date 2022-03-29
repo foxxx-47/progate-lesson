@@ -1,5 +1,3 @@
-const characters = ["にんじゃわんこ", "ベイビーわんこ", "ひつじ仙人"];
-console.log(characters);
+const characters = ["にんじゃわんこ", "ベイビーわんこ", "ひつじ仙人", "とりずきん"];
 
-characters.push("とりずきん");
-console.log(characters);
+characters.forEach((character) => {console.log(character)});
