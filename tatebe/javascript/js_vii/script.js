@@ -7,4 +7,4 @@ const call = (callback) => {
   callback();
 };
 
-call(printHitsuji);
+call(printWanko);
