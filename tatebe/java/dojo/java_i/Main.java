@@ -4,6 +4,16 @@ class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
+    System.out.print("何人分の情報を入力しますか：");
+    int num = scanner.nextInt();
+
+    for(int i = 1; i <= num; i++) {
+      System.out.println(i + "人目");
+      personInfo(scanner);
+    }
+  }
+
+  public static void personInfo(Scanner scanner) {
     System.out.println("名前：");
     String firstName = scanner.next();
     System.out.println("名前は" + firstName + "です");
