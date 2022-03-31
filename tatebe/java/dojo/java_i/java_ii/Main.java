@@ -10,12 +10,18 @@ class Main {
     System.out.println("-----------------");
 
     System.out.print("走る距離を入力してください：");
-    int distance = sc.nextInt();
-    bicycle1.run(distance);
+    int biCycleDistance = sc.nextInt();
+    bicycle1.run(biCycleDistance);
 
     System.out.println("=================");
 
     Car car1 = new Car("フェラーリ", "赤");
     car1.printData();
+
+    System.out.println("-----------------");
+
+    System.out.print("走る距離を入力してください：");
+    int carDistance = sc.nextInt();
+    car1.run(carDistance);
   }
 }

@@ -19,7 +19,13 @@ class Car {
 
   public void run(int distance) {
     System.out.println(distance + "km走ります");
-    this.distance += distance;
+    if (this.fuel < distance) {
+      System.out.println("ガソリンが足りません");
+    } else {
+      this.distance += distance;
+      this.fuel -= distance;
+    }
     System.out.println("走行距離：" + this.distance + "km");
+    System.out.println("ガソリン量：" + this.fuel + "L");
   }
 }
