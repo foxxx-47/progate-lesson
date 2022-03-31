@@ -23,5 +23,11 @@ class Main {
     System.out.print("走る距離を入力してください：");
     int carDistance = sc.nextInt();
     car1.run(carDistance);
+
+    System.out.println("-----------------");
+
+    System.out.print("給油する量を入力してください：");
+    int fuel = sc.nextInt();
+    car1.charge(fuel);
   }
 }

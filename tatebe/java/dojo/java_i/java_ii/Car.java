@@ -28,4 +28,17 @@ class Car {
     System.out.println("走行距離：" + this.distance + "km");
     System.out.println("ガソリン量：" + this.fuel + "L");
   }
+
+  public void charge(int fuel) {
+    System.out.println(fuel + "L給油します");
+    if (fuel <= 0) {
+      System.out.println("給油できません");
+    } else if (this.fuel + fuel > 100) {
+      System.out.println("満タンまで給油します");
+      this.fuel = 100;
+    } else {
+      this.fuel += fuel;
+    }
+    System.out.println("ガソリン量：" + this.fuel + "L");
+  }
 }
