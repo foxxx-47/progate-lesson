@@ -6,6 +6,9 @@ class Main {
     person2.printData();
 
     System.out.println("----------------------");
-    System.out.println("person2のミドルネームは" + person2.getMiddleName() + "です");
+    person1.setMiddleName("Claire");
+    
+    System.out.println("ミドルネームを" + person1.getMiddleName() + "に変更しました");
+    person1.printData();
   }
 }

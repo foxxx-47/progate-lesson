@@ -25,6 +25,10 @@ class Person {
     return this.middleName;
   }
 
+  public void setMiddleName(String middleName) {
+    this.middleName = middleName;
+  }
+
   public String fullName() {
     if (this.middleName == null) {
       return this.firstName + " " + this.lastName;
