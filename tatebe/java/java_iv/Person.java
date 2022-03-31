@@ -1,13 +1,14 @@
-import java.lang.Math;
-
 class Person {
+  public static int count = 0;
+  
   public String firstName;
   public String lastName;
   public int age;
-  public double height;
-  public double weight;
+  public double height, weight;
 
   Person(String firstName, String lastName, int age, double height, double weight) {
+    count++;
+    
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
