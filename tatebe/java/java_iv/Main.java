@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    Person person = new Person();
-    person.hello();
+    Person person1 = new Person();
+    Person person2 = new Person();
   }
 }
