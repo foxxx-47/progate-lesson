@@ -4,7 +4,8 @@ class Person {
   public String middleName;
   public String lastName;
   public int age;
-  public double height, weight;
+  public double height;
+  public double weight;
 
   Person(String firstName, String lastName, int age, double height, double weight) {
     Person.count++;
@@ -21,12 +22,18 @@ class Person {
   }
 
   public String fullName() {
-    return this.firstName + " " + this.lastName;
+    if (this.middleName == null) {
+      return this.firstName + " " + this.lastName;
+    } else {
+      return this.firstName + " " + this.middleName + " " + this.lastName;
+    }
   }
 
   public void printData() {
     System.out.println("私の名前は" + this.fullName() + "です");
     System.out.println("年齢は" + this.age + "歳です");
+    System.out.println("身長は" + this.height + "mです");
+    System.out.println("体重は" + this.weight + "kgです");
     System.out.println("BMIは" + Math.round(this.bmi()) + "です");
   }
 
