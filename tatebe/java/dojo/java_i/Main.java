@@ -8,6 +8,7 @@ class Main {
     int num = scanner.nextInt();
 
     int maxAge = 0;
+    int totalAge = 0;
     for(int i = 1; i <= num; i++) {
       System.out.println(i + "人目");
       System.out.println("名前：");
@@ -31,8 +32,12 @@ class Main {
       if (maxAge < age) {
         maxAge = age;
       }
+      totalAge += age;
     }
 
     System.out.println("最高年齢は" + maxAge + "歳です");
+    
+    int aveAge = totalAge / num;
+    System.out.println("平均年齢は" + aveAge + "歳です");
   }
 }
