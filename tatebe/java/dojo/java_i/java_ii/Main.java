@@ -12,5 +12,10 @@ class Main {
     System.out.print("走る距離を入力してください：");
     int distance = sc.nextInt();
     bicycle1.run(distance);
+
+    System.out.println("=================");
+
+    Car car1 = new Car("フェラーリ", "赤");
+    car1.printData();
   }
 }
