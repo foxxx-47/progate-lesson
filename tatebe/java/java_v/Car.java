@@ -1,6 +1,10 @@
 class Car extends Vehicle {
   private int fuel = 50;
   
+  Car(String name, String color) {
+    super(name, color);
+  }
+
   public int getFuel() {
     return this.fuel;
   }
