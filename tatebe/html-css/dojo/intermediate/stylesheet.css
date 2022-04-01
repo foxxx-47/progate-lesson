@@ -1,0 +1,185 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.header-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header-left {
+  float: left;
+}
+.header-left .logo {
+  width: 124px;
+  padding-top: 20px;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  display: block;
+  color: white;
+  line-height: 65px;
+}
+
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+}
+.top-container {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top .title {
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 24px;
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 1;
+}
+.signup-btns p {
+  margin: 15px 0;
+}
+.fa {
+  padding-right: 5px;
+}
+.signup {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+
+.center {
+  background-color: #f7f7f7;
+}
+
+.contents {
+  width: 1170px;
+  height: 580px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contents .title {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.contents .title h2 {
+  font-weight: normal;
+}
+
+.contents .lesson {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+.lesson .name {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.lesson .description {
+  width: 80%;
+  display: inline-block;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.bottom {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.bottom .message {
+  padding-bottom: 50px;
+}
+.bottom .message h2 {
+  font-weight: bold;
+}
+
+.start-btn {
+  background-color: #5dca88;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+}
+.start-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer .border {
+  border: 1px solid #eee;
+}
+footer .logo {
+  width: 1170px;
+  margin: 30px auto;
+}
+footer .logo img {
+  width: 124px;
+}
+footer .logo p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
