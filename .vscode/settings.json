@@ -1,0 +1,96 @@
+{
+  "stylelint.stylelintPath": "node_modules/stylelint",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "html"
+  ],
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.validate.styles": false,
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+  },
+  "css.validate": false,
+  "todo-tree.general.tags": [
+    "CHANGED",
+    "FIXME",
+    "NOTE",
+    "REVIEW",
+    "TODO",
+    "WARNING",
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "checklist",
+    "type": "text",
+    "fontWeight": "bold",
+    "iconColour": "#2C7CFF",
+  },
+  "todo-tree.highlights.customHighlight": {
+    "CHANGED": {
+      "foreground": "#FF00FF",
+    },
+    "FIXME": {
+      "foreground": "#008000",
+    },
+    "NOTE": {
+      "foreground": "#C0C0C0",
+    },
+    "REVIEW": {
+      "foreground": "#2C7CFF",
+    },
+    "TODO": {
+      "foreground": "#FF5F17",
+    },
+    "WARNING": {
+      "foreground": "#ff0000",
+    },
+  },
+  "better-comments.tags": [
+    {
+      "tag": "CHANGED",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#FF00FF",
+    },
+    {
+      "tag": "FIXME",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "green",
+    },
+    {
+      "tag": "NOTE",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#C0C0C0",
+    },
+    {
+      "tag": "REVIEW",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#2C7CFF",
+    },
+    {
+      "tag": "TODO",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#FF5F17",
+    },
+    {
+      "tag": "WARNING",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "red",
+    },
+  ],
+}
